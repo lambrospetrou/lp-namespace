@@ -1,20 +1,13 @@
 var LP = require('./index.js');
+var expect = require('chai').expect;
 
 // check that the ns() function exists
-if (typeof LP.ns !== 'function') {
-    console.error('ns() function not defined!');
-    return;
-}
+expect(LP).to.have.property('ns');
+expect(typeof LP.ns).to.equal('function')
 
+var testNamespace = 'my.custom.namespace';
 var testObj = {};
+LP.ns(testNamespace, testObj);
 
-LP.ns('my.custom.namespace', testObj);
+expect(testObj).to.have.deep.property(testNamespace);
 
-if (typeof testObj['my'] === undefined 
-    || typeof testObj['my.custom'] === undefined
-    || typeof testObj['my.custom.namespace'] === undefined) {
-    console.error('ns() function not defined!');
-    return;
-}
-
-console.log('ns() function creates the namespace properly.');
