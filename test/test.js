@@ -1,4 +1,4 @@
-var LP = require('./index.js');
+var LP = require('../index.js');
 var expect = require('chai').expect;
 
 // check that the ns() function exists

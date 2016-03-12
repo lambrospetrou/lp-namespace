@@ -22,6 +22,12 @@ You can also use the ```ns.js``` file directly in browser which declares a globa
 npm install lp-namespace@latest
 ```
 
+### Bower
+
+```bash
+bower install lp-namespace
+```
+
 ### Browser
 
 Import the ```ns.js``` file in your website.

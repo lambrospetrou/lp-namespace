@@ -1,7 +1,1 @@
-var _LP = require('./ns.js');
-
-module.exports = (function() {
-
-    return _LP.LP;
-
-}());
+module.exports = require('./lib/ns.js').LP;
