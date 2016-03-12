@@ -1,5 +1,5 @@
 {
   "name": "lp-namespace",
-  "main": "dist/ns.js",
+  "main": "dist/ns.min.js",
   "ignore": [".*", "index.js", "test", "node_modules"]
 }
