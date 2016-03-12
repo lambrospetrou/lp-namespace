@@ -1,6 +1,6 @@
 {
   "name": "lp-namespace",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Defines a Javascript namespace (object) if it is not already defined.",
   "main": "index.js",
   "scripts": {
