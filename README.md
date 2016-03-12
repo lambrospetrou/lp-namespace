@@ -18,5 +18,5 @@ You can also use the ```ns.js``` file directly in browser which declares a globa
 
 ### ns(namespace, container)
 
-This method ensures that the @container object contains properties that represent the given namespace.
+This method ensures that the @container object contains properties that represent the given @namespace.
 
