@@ -14,6 +14,24 @@ This module is used to create (ensure existence) namespaces inside Javascript ob
 
 You can also use the ```ns.js``` file directly in browser which declares a global **LP** variable for you to use.
 
+## Install
+
+### NodeJS npm
+
+```bash
+npm install lp-namespace@latest
+```
+
+### Browser
+
+Import the ```ns.js``` file in your website.
+
+```javascript
+<script src="ns.js"></script>
+```
+
+The above script will create a global variable **LP** which contains the API of the module.
+
 ## API
 
 ### ns(namespace, container)
