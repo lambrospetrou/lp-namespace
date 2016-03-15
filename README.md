@@ -31,7 +31,7 @@ bower install lp-namespace
 Import the ```ns.js``` file in your website.
 
 ```javascript
-<script src="lp-namespace/dist/ns.js"></script>
+<script src="lp-namespace/dist/ns.min.js"></script>
 ```
 
 The above script will create a global variable **LP** which contains the API of the module.
