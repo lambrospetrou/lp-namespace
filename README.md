@@ -19,7 +19,7 @@ You can also use the ```ns.js``` file directly in browser which declares a globa
 ### NodeJS npm
 
 ```bash
-npm install lp-namespace@latest
+npm install lp-namespace
 ```
 
 ### Bower
