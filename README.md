@@ -1,6 +1,6 @@
 # LP-Namespace
 
-This module is used to create (ensure existence) namespaces inside Javascript objects. By namespace I mean something like **MY.CUSTOM.NAMESPACE**. Here, we the result in an object will be the following:
+This module is used to create (ensure existence) namespaces inside Javascript objects. By namespace I mean something like **MY.CUSTOM.NAMESPACE**, which will result in an object like the following:
 
 ```json
 {
